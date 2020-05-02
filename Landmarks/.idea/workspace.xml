@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25a88399-9238-4f29-9357-79bca39b8d7e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landmarks/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Landmarks/ContentView.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_CA832F95-EFCF-4F33-9B89-D408A6DA73D5" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bKsTQH9YKrlTX9aFvKkJmPF1gt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Landmarks" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Landmarks" TARGET_NAME="Landmarks" CONFIG_NAME="Debug" SCHEME_NAME="Landmarks" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="Landmarks" RUN_TARGET_NAME="Landmarks" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25a88399-9238-4f29-9357-79bca39b8d7e" name="Default Changelist" comment="" />
+      <created>1588392128229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588392128229</updated>
+      <workItem from="1588392144806" duration="57000" />
+      <workItem from="1588392533370" duration="1475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="939" height="376" key="GridCell.Tab.0.bottom" timestamp="1588394078132">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588393987744" />
+    <state width="939" height="376" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078132" />
+    <state width="939" height="376" key="GridCell.Tab.0.center" timestamp="1588394078131">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588393987738" />
+    <state width="939" height="376" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078131" />
+    <state width="939" height="376" key="GridCell.Tab.0.left" timestamp="1588394078130">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588393987737" />
+    <state width="939" height="376" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078130" />
+    <state width="939" height="376" key="GridCell.Tab.0.right" timestamp="1588394078132">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588393987741" />
+    <state width="939" height="376" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078132" />
+    <state width="939" height="376" key="GridCell.Tab.1.bottom" timestamp="1588394078136">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078136" />
+    <state width="939" height="376" key="GridCell.Tab.1.center" timestamp="1588394078134">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.1.center/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078134" />
+    <state width="939" height="376" key="GridCell.Tab.1.left" timestamp="1588394078133">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.1.left/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078133" />
+    <state width="939" height="376" key="GridCell.Tab.1.right" timestamp="1588394078135">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="939" height="376" key="GridCell.Tab.1.right/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588394078135" />
+    <state x="-1451" y="-1" key="SettingsEditor" timestamp="1588392827307">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1451" y="-1" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588392827307" />
+  </component>
+</project>
