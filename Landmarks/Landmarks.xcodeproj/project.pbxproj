@@ -16,6 +16,7 @@
 		430B2AA221D04605DFE9EABD /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2B049D7522D073629106 /* LandmarksUITests.swift */; };
 		430B2E4380212766B1363414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2009661C6F0970728C12 /* AppDelegate.swift */; };
 		EBCE520E245D387900DC4805 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCE520D245D387900DC4805 /* CircleImage.swift */; };
+		EBCE5210245D3ACC00DC4805 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCE520F245D3ACC00DC4805 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		430B2D024FA829C39AB586A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		430B2E01522E5480B6CAD4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBCE520D245D387900DC4805 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		EBCE520F245D3ACC00DC4805 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				430B22A9C78198F42FC24A5D /* SceneDelegate.swift */,
 				430B227281D4480E17BD5354 /* ContentView.swift */,
 				EBCE520D245D387900DC4805 /* CircleImage.swift */,
+				EBCE520F245D3ACC00DC4805 /* MapView.swift */,
 				430B2EDF7D4B41A433187C6F /* Preview Content */,
 			);
 			path = Landmarks;
@@ -258,6 +261,7 @@
 			files = (
 				430B2E4380212766B1363414 /* AppDelegate.swift in Sources */,
 				EBCE520E245D387900DC4805 /* CircleImage.swift in Sources */,
+				EBCE5210245D3ACC00DC4805 /* MapView.swift in Sources */,
 				430B2412E4291E5F2A946041 /* SceneDelegate.swift in Sources */,
 				430B25CE87FCC51D49971CAC /* ContentView.swift in Sources */,
 			);
