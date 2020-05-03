@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25a88399-9238-4f29-9357-79bca39b8d7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Landmarks/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Landmarks/ContentView.swift" afterDir="false" />
-    </list>
+    <list default="true" id="25a88399-9238-4f29-9357-79bca39b8d7e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +46,7 @@
       <updated>1588392128229</updated>
       <workItem from="1588392144806" duration="57000" />
       <workItem from="1588392533370" duration="1475000" />
+      <workItem from="1588399106253" duration="196000" />
     </task>
     <servers />
   </component>
@@ -102,5 +99,9 @@
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1451" y="-1" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588392827307" />
+    <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup" timestamp="1588399252933">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1588399252933" />
   </component>
 </project>
