@@ -1,7 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25a88399-9238-4f29-9357-79bca39b8d7e" name="Default Changelist" comment="" />
+    <list default="true" id="25a88399-9238-4f29-9357-79bca39b8d7e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Configuration/SampleCode.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/LICENSE/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/BuildingListsAndNavigation.xcodeproj/.xcodesamplecode.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/BuildingListsAndNavigation.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/BuildingListsAndNavigation.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_100x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_1024x1024-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_1024x1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_120x120-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_167x167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_172x172.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_196x196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_216x216.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_40x40-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_40x40-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_55x55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_58x58-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_58x58-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_58x58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_80x80-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_80x80-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_87x87-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_87x87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_88x88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/turtlerock.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Assets.xcassets/turtlerock.imageset/turtlerock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/LandmarkDetail.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/LandmarkList.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Models/Data.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Models/Landmark.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Preview Content/Preview Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/chilkoottrail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/chincoteague.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/hiddenlake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/icybay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/lakemcdonald.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/landmarkData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/rainbowlake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/silversalmoncreek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/stmarylake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/turtlerock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/twinlake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/umbagog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Resources/yukon_charleyrivers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/SceneDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Supporting Views/CircleImage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Supporting Views/LandmarkRow.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/Landmarks/Landmarks/Supporting Views/MapView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/Complete/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/ProjectFiles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Configuration/SampleCode.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/LICENSE/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/BuildingListsAndNavigation.xcodeproj/.xcodesamplecode.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/BuildingListsAndNavigation.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/BuildingListsAndNavigation.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_100x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_1024x1024-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_1024x1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_120x120-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_167x167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_172x172.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_196x196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_216x216.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_40x40-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_40x40-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_55x55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_58x58-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_58x58-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_58x58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_80x80-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_80x80-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_87x87-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_87x87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/landmark_app_icon_88x88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/turtlerock.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Assets.xcassets/turtlerock.imageset/turtlerock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/LandmarkDetail.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Models/Data.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Models/Landmark.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Preview Content/Preview Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/chilkoottrail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/chincoteague.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/hiddenlake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/icybay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/lakemcdonald.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/landmarkData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/rainbowlake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/silversalmoncreek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/stmarylake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/turtlerock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/twinlake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/umbagog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/yukon_charleyrivers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/SceneDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Supporting Views/CircleImage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Supporting Views/MapView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildingListsAndNavigation/StartingPoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landmarks.xcodeproj/project.xcworkspace/xcuserdata/Komatsu.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Landmarks.xcodeproj/project.xcworkspace/xcuserdata/Komatsu.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landmarks/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Landmarks/ContentView.swift" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +144,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,6 +174,7 @@
       <workItem from="1588392144806" duration="57000" />
       <workItem from="1588392533370" duration="1475000" />
       <workItem from="1588399106253" duration="196000" />
+      <workItem from="1588515280955" duration="586000" />
     </task>
     <servers />
   </component>
