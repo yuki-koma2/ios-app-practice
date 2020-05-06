@@ -39,7 +39,23 @@ struct TodoDetail: View {
                 Text("Task due date: \(todo.endDate, formatter: Self.taskDateFormat)")
             }
         }
-
-
     }
 }
+
+// todo: ぜんぜんプレビューしてくんないんだけど、なんなん？
+// Dateめんどくせ
+//struct TodoDetail_Previews: PreviewProvider {
+////    var todo :TodoItem = TodoItem.init(id:1, title: "Test", detail: "this is detail", endDate: Date("2017/1/1 12:39:22"), isCompleted:false)
+////
+//    static var previews: some View {
+////        TodoDetail(todo:{
+////            id:1,
+////            title: "Test",
+////            detail: "this is detail",
+////            endDate: Date(),
+////            isCompleted:false
+////        })
+////        TodoDetail(todo:todo)
+////            .environmentObject(UserData())
+////    }
+//}
