@@ -9,7 +9,37 @@
 import SwiftUI
 
 struct TodoDetail: View {
+    @EnvironmentObject var userData: UserData
+    @State private var input = ""
+    @State private var onFocus = false
+    @State var todo: TodoItem
+    var todoIndex: Int {
+        userData.todos.firstIndex(where: { $0.id == todo.id })!
+    }
+    static let taskDateFormat: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        return formatter
+    }()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+        HStack {
+            VStack {
+                // isCompleteがうまく機能しない
+                CheckButton(isCompleted: self.todo.isCompleted, action: {
+                    self.todo.changeComplete(isCompleted: !self.todo.isCompleted)
+                })
+                Text(todo.title).font(.largeTitle)
+            }
+            VStack {
+                Text(todo.detail).frame(height: 20, alignment: .trailing)
+            }
+            VStack {
+                Text("Task due date: \(todo.endDate, formatter: Self.taskDateFormat)")
+            }
+        }
+
+
     }
 }

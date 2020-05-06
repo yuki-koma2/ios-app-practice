@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		430B200D91CA91BFD96378CC /* TodoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B26E7365ECB74C7B802E3 /* TodoDetail.swift */; };
+		430B201A7977158E5A22A55B /* TodoEditPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B232761984C846CF16596 /* TodoEditPage.swift */; };
 		430B240DCBD6DF41E24E6C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430B262259E164C7E0C56640 /* Assets.xcassets */; };
 		430B242535E0BF79B3AF3000 /* komatodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2E867617240D5E81D161 /* komatodoUITests.swift */; };
 		430B249A4FE7F84FEE3F1C94 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B274C3A8E07E28234CF9C /* TodoRow.swift */; };
@@ -15,7 +15,9 @@
 		430B261D6C46B5BF149794F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2332D82835B4F29F40B5 /* ContentView.swift */; };
 		430B27152A81162F9ED1DFD9 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B211BC496643E9B96814B /* TodoList.swift */; };
 		430B27A8310D0DB9DBCD4E05 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B20DB49A3EE0B27B31F29 /* UserData.swift */; };
+		430B27B6AA708B8BB75A0383 /* TodoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B26D6F10D7815B2C29494 /* TodoDetail.swift */; };
 		430B2971A88E4324EA3F9C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2FAC3E53EE384262CAF8 /* SceneDelegate.swift */; };
+		430B2A0F096C1A6AF67A7201 /* checkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B28FED78D028B5E88B8EF /* checkButton.swift */; };
 		430B2C81FBA513BD7FF121CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430B2EF6971EAF429818C4E1 /* Preview Assets.xcassets */; };
 		430B2D60D91ECB7DA5FA2D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430B226EF25D338E054ED1C5 /* LaunchScreen.storyboard */; };
 		430B2DCF1423C4BFC0B384C4 /* komatodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2903B13852E13CCAAE19 /* komatodoTests.swift */; };
@@ -43,11 +45,13 @@
 		430B20DB49A3EE0B27B31F29 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		430B211BC496643E9B96814B /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		430B22257320E5C42EEAFE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		430B232761984C846CF16596 /* TodoEditPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoEditPage.swift; sourceTree = "<group>"; };
 		430B2332D82835B4F29F40B5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		430B262259E164C7E0C56640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		430B26E7365ECB74C7B802E3 /* TodoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoDetail.swift; sourceTree = "<group>"; };
+		430B26D6F10D7815B2C29494 /* TodoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoDetail.swift; sourceTree = "<group>"; };
 		430B274C3A8E07E28234CF9C /* TodoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
 		430B281BEBAD2101C47A5AD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		430B28FED78D028B5E88B8EF /* checkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkButton.swift; sourceTree = "<group>"; };
 		430B2903B13852E13CCAAE19 /* komatodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komatodoTests.swift; sourceTree = "<group>"; };
 		430B29A988C73199A2B59B12 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		430B2AD5F4E473578330E71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -158,10 +162,19 @@
 			isa = PBXGroup;
 			children = (
 				430B211BC496643E9B96814B /* TodoList.swift */,
-				430B26E7365ECB74C7B802E3 /* TodoDetail.swift */,
 				430B274C3A8E07E28234CF9C /* TodoRow.swift */,
+				430B26D6F10D7815B2C29494 /* TodoDetail.swift */,
+				430B232761984C846CF16596 /* TodoEditPage.swift */,
 			);
 			path = todoList;
+			sourceTree = "<group>";
+		};
+		430B2A4DD32E353B70411AE8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				430B28FED78D028B5E88B8EF /* checkButton.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 		430B2B50AD86F19319F51864 /* content */ = {
@@ -187,6 +200,7 @@
 			children = (
 				430B2332D82835B4F29F40B5 /* ContentView.swift */,
 				430B27B7F6A464B55A38CCD7 /* todoList */,
+				430B2A4DD32E353B70411AE8 /* common */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,8 +336,10 @@
 				430B27152A81162F9ED1DFD9 /* TodoList.swift in Sources */,
 				430B25C753A7F9CECDCFD5E9 /* TodoItem.swift in Sources */,
 				430B27A8310D0DB9DBCD4E05 /* UserData.swift in Sources */,
-				430B200D91CA91BFD96378CC /* TodoDetail.swift in Sources */,
 				430B249A4FE7F84FEE3F1C94 /* TodoRow.swift in Sources */,
+				430B27B6AA708B8BB75A0383 /* TodoDetail.swift in Sources */,
+				430B201A7977158E5A22A55B /* TodoEditPage.swift in Sources */,
+				430B2A0F096C1A6AF67A7201 /* checkButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

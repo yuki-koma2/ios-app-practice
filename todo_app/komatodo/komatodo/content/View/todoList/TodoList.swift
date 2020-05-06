@@ -7,6 +7,7 @@ import SwiftUI
 
 struct TodoList: View {
     @EnvironmentObject var userData: UserData
+    var newItemTitle = "new Item. Tap to Edit"
 
     var body: some View {
         NavigationView {
@@ -15,13 +16,21 @@ struct TodoList: View {
                     Text("Completed only")
                 }
                 ForEach(self.userData.todos) { todo in
-                    TodoRow(todo: todo)
+                    if todo.title == self.newItemTitle {
+                        NavigationLink(destination: TodoEditPage(todo: todo)) {
+                            TodoRow(todo: todo)
+                        }
+                    } else {
+                        NavigationLink(destination: TodoDetail(todo: todo)) {
+                            TodoRow(todo: todo)
+                        }
+                    }
                 }
                 Button("+ Add Item", action: {
                     self.userData.todos.append(
                             TodoItem.init(
                                     id: self.userData.todos.count,
-                                    title: "new Item. Tap to Edit",
+                                    title: self.newItemTitle,
                                     detail: "detail",
                                     endDate: Date(),
                                     isCompleted: false
