@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430B200D91CA91BFD96378CC /* TodoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B26E7365ECB74C7B802E3 /* TodoDetail.swift */; };
+		430B240DCBD6DF41E24E6C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430B262259E164C7E0C56640 /* Assets.xcassets */; };
+		430B242535E0BF79B3AF3000 /* komatodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2E867617240D5E81D161 /* komatodoUITests.swift */; };
+		430B249A4FE7F84FEE3F1C94 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B274C3A8E07E28234CF9C /* TodoRow.swift */; };
+		430B25C753A7F9CECDCFD5E9 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B29A988C73199A2B59B12 /* TodoItem.swift */; };
+		430B261D6C46B5BF149794F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2332D82835B4F29F40B5 /* ContentView.swift */; };
+		430B27152A81162F9ED1DFD9 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B211BC496643E9B96814B /* TodoList.swift */; };
+		430B27A8310D0DB9DBCD4E05 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B20DB49A3EE0B27B31F29 /* UserData.swift */; };
+		430B2971A88E4324EA3F9C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2FAC3E53EE384262CAF8 /* SceneDelegate.swift */; };
+		430B2C81FBA513BD7FF121CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430B2EF6971EAF429818C4E1 /* Preview Assets.xcassets */; };
+		430B2D60D91ECB7DA5FA2D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430B226EF25D338E054ED1C5 /* LaunchScreen.storyboard */; };
+		430B2DCF1423C4BFC0B384C4 /* komatodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B2903B13852E13CCAAE19 /* komatodoTests.swift */; };
+		430B2F7071E0CE1CE7B35AD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B22257320E5C42EEAFE48 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		430B216CF18E63F7148D1479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430B22004B1D03AA0BB5B213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 430B2AA2F3525F4CB99BB308;
+			remoteInfo = komatodo;
+		};
+		430B2A2A94453ECD193CCC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430B22004B1D03AA0BB5B213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 430B2AA2F3525F4CB99BB308;
+			remoteInfo = komatodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		430B20DB49A3EE0B27B31F29 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		430B211BC496643E9B96814B /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		430B22257320E5C42EEAFE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		430B2332D82835B4F29F40B5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		430B262259E164C7E0C56640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		430B26E7365ECB74C7B802E3 /* TodoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoDetail.swift; sourceTree = "<group>"; };
+		430B274C3A8E07E28234CF9C /* TodoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
+		430B281BEBAD2101C47A5AD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		430B2903B13852E13CCAAE19 /* komatodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komatodoTests.swift; sourceTree = "<group>"; };
+		430B29A988C73199A2B59B12 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		430B2AD5F4E473578330E71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		430B2AFC2803B204E06BD67B /* komatodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komatodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		430B2CD3122073B9666F3D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		430B2E6D4A7DDED4C03EF348 /* komatodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komatodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		430B2E867617240D5E81D161 /* komatodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komatodoUITests.swift; sourceTree = "<group>"; };
+		430B2E899A158EB27F4F756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		430B2EF6971EAF429818C4E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		430B2F5FBD1541419FF27C23 /* komatodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komatodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		430B2FAC3E53EE384262CAF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		430B23BD67CEB1F358877C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430B26556281EC069756EDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430B2C6887619ACE5FE6BD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		430B207664EF29FE35DE6B27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				430B2EF6971EAF429818C4E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		430B2234D739085168DE0FD8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				430B29A988C73199A2B59B12 /* TodoItem.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		430B224506E577CE156345A1 /* komatodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				430B2AD5F4E473578330E71E /* Info.plist */,
+				430B2903B13852E13CCAAE19 /* komatodoTests.swift */,
+			);
+			path = komatodoTests;
+			sourceTree = "<group>";
+		};
+		430B224EE3BBAD0BB2B28390 /* komatodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				430B2CD3122073B9666F3D59 /* Info.plist */,
+				430B2E867617240D5E81D161 /* komatodoUITests.swift */,
+			);
+			path = komatodoUITests;
+			sourceTree = "<group>";
+		};
+		430B2277F480F49AB3A2AD75 /* komatodo */ = {
+			isa = PBXGroup;
+			children = (
+				430B2E899A158EB27F4F756A /* Info.plist */,
+				430B262259E164C7E0C56640 /* Assets.xcassets */,
+				430B226EF25D338E054ED1C5 /* LaunchScreen.storyboard */,
+				430B22257320E5C42EEAFE48 /* AppDelegate.swift */,
+				430B2FAC3E53EE384262CAF8 /* SceneDelegate.swift */,
+				430B207664EF29FE35DE6B27 /* Preview Content */,
+				430B2B50AD86F19319F51864 /* content */,
+			);
+			path = komatodo;
+			sourceTree = "<group>";
+		};
+		430B2635F58A9493C3433129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				430B2F5FBD1541419FF27C23 /* komatodo.app */,
+				430B2AFC2803B204E06BD67B /* komatodoTests.xctest */,
+				430B2E6D4A7DDED4C03EF348 /* komatodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		430B2660CE25B6D8F1A82E21 = {
+			isa = PBXGroup;
+			children = (
+				430B2635F58A9493C3433129 /* Products */,
+				430B2277F480F49AB3A2AD75 /* komatodo */,
+				430B224506E577CE156345A1 /* komatodoTests */,
+				430B224EE3BBAD0BB2B28390 /* komatodoUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		430B27B7F6A464B55A38CCD7 /* todoList */ = {
+			isa = PBXGroup;
+			children = (
+				430B211BC496643E9B96814B /* TodoList.swift */,
+				430B26E7365ECB74C7B802E3 /* TodoDetail.swift */,
+				430B274C3A8E07E28234CF9C /* TodoRow.swift */,
+			);
+			path = todoList;
+			sourceTree = "<group>";
+		};
+		430B2B50AD86F19319F51864 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				430B2EBF2C155BF2F5A6529A /* API */,
+				430B2234D739085168DE0FD8 /* model */,
+				430B2F324A19C401BE8BFBBE /* View */,
+				430B2FA70ADE1847A7773ED9 /* Resource */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		430B2EBF2C155BF2F5A6529A /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		430B2F324A19C401BE8BFBBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				430B2332D82835B4F29F40B5 /* ContentView.swift */,
+				430B27B7F6A464B55A38CCD7 /* todoList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		430B2FA70ADE1847A7773ED9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				430B20DB49A3EE0B27B31F29 /* UserData.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		430B2440209526C316BCF0A5 /* komatodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430B290FE3FD9D094998E909 /* Build configuration list for PBXNativeTarget "komatodoTests" */;
+			buildPhases = (
+				430B2626F8B37050E1726866 /* Sources */,
+				430B2C6887619ACE5FE6BD64 /* Frameworks */,
+				430B200BC044F8D9F9FF06E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				430B23209AC373A809A60A37 /* PBXTargetDependency */,
+			);
+			name = komatodoTests;
+			productName = komatodoTests;
+			productReference = 430B2AFC2803B204E06BD67B /* komatodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		430B255634EF47ED92CA4006 /* komatodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430B28C5222033B3AB7C9058 /* Build configuration list for PBXNativeTarget "komatodoUITests" */;
+			buildPhases = (
+				430B2869021200DABE2A6830 /* Sources */,
+				430B26556281EC069756EDEA /* Frameworks */,
+				430B256BE3A170248E9F6723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				430B2BC6880541CA6D7D62FC /* PBXTargetDependency */,
+			);
+			name = komatodoUITests;
+			productName = komatodoUITests;
+			productReference = 430B2E6D4A7DDED4C03EF348 /* komatodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		430B2AA2F3525F4CB99BB308 /* komatodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430B2269E8EF25CF0B5EF509 /* Build configuration list for PBXNativeTarget "komatodo" */;
+			buildPhases = (
+				430B23A3B893B329CA963E37 /* Sources */,
+				430B23BD67CEB1F358877C59 /* Frameworks */,
+				430B2692196772691D6DE058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = komatodo;
+			productName = komatodo;
+			productReference = 430B2F5FBD1541419FF27C23 /* komatodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		430B22004B1D03AA0BB5B213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___YUKIKOMA___";
+			};
+			buildConfigurationList = 430B2388C810743389BC83B3 /* Build configuration list for PBXProject "komatodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 430B2660CE25B6D8F1A82E21;
+			productRefGroup = 430B2635F58A9493C3433129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				430B2AA2F3525F4CB99BB308 /* komatodo */,
+				430B2440209526C316BCF0A5 /* komatodoTests */,
+				430B255634EF47ED92CA4006 /* komatodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		430B200BC044F8D9F9FF06E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430B256BE3A170248E9F6723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430B2692196772691D6DE058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430B240DCBD6DF41E24E6C62 /* Assets.xcassets in Resources */,
+				430B2D60D91ECB7DA5FA2D16 /* LaunchScreen.storyboard in Resources */,
+				430B2C81FBA513BD7FF121CC /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		430B23A3B893B329CA963E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430B2F7071E0CE1CE7B35AD5 /* AppDelegate.swift in Sources */,
+				430B2971A88E4324EA3F9C2E /* SceneDelegate.swift in Sources */,
+				430B261D6C46B5BF149794F7 /* ContentView.swift in Sources */,
+				430B27152A81162F9ED1DFD9 /* TodoList.swift in Sources */,
+				430B25C753A7F9CECDCFD5E9 /* TodoItem.swift in Sources */,
+				430B27A8310D0DB9DBCD4E05 /* UserData.swift in Sources */,
+				430B200D91CA91BFD96378CC /* TodoDetail.swift in Sources */,
+				430B249A4FE7F84FEE3F1C94 /* TodoRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430B2626F8B37050E1726866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430B2DCF1423C4BFC0B384C4 /* komatodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430B2869021200DABE2A6830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430B242535E0BF79B3AF3000 /* komatodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		430B23209AC373A809A60A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 430B2AA2F3525F4CB99BB308 /* komatodo */;
+			targetProxy = 430B216CF18E63F7148D1479 /* PBXContainerItemProxy */;
+		};
+		430B2BC6880541CA6D7D62FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 430B2AA2F3525F4CB99BB308 /* komatodo */;
+			targetProxy = 430B2A2A94453ECD193CCC03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		430B226EF25D338E054ED1C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430B281BEBAD2101C47A5AD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		430B21AEB2625BF13A6D143D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = komatodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todo.koma.komatodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = komatodo;
+			};
+			name = Release;
+		};
+		430B22B2B17488DF97A3D74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		430B23BDE09C1317A20D3588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = komatodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todo.koma.komatodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = komatodo;
+			};
+			name = Debug;
+		};
+		430B2456EDB9FD587831165C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/komatodo.app/komatodo";
+				INFOPLIST_FILE = komatodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todo.koma.komatodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		430B253C6960E31E3FD0F98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		430B26ADB29E5B6A9D34B1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/komatodo.app/komatodo";
+				INFOPLIST_FILE = komatodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todo.koma.komatodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		430B26BFE3085C6B0581BDF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"komatodo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = komatodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todo.koma.komatodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		430B2B6B57C5D6CA1DF55E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"komatodo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = komatodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todo.koma.komatodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		430B2269E8EF25CF0B5EF509 /* Build configuration list for PBXNativeTarget "komatodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430B2B6B57C5D6CA1DF55E2C /* Debug */,
+				430B26BFE3085C6B0581BDF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430B2388C810743389BC83B3 /* Build configuration list for PBXProject "komatodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430B22B2B17488DF97A3D74A /* Debug */,
+				430B253C6960E31E3FD0F98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430B28C5222033B3AB7C9058 /* Build configuration list for PBXNativeTarget "komatodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430B23BDE09C1317A20D3588 /* Debug */,
+				430B21AEB2625BF13A6D143D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430B290FE3FD9D094998E909 /* Build configuration list for PBXNativeTarget "komatodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430B26ADB29E5B6A9D34B1CF /* Debug */,
+				430B2456EDB9FD587831165C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 430B22004B1D03AA0BB5B213 /* Project object */;
+}
